@@ -12,7 +12,7 @@ function sum(a, b, c) {
 }
 
 // TODO: 아래 코드를 작성하세요.
-let callResult = sum().call(null, 1, 2, 3);
-let applyResult = sum().apply(null, [1, 2, 3]);
+let callResult = sum.call(null, 1, 2, 3);
+let applyResult = sum.apply(null, [1, 2, 3]);
 
 export { sum, callResult, applyResult };
